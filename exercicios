@@ -1,0 +1,72 @@
+1. 
+let valor = Number(prompt("Digite o valor desejado: "));
+
+if (valor % 2 === 0){
+    console.log("O valor " + valor + " é par!");
+}
+
+else console.log("O valor " + valor + " é ímpar!");
+
+_______________________________________________________
+
+2. 
+let idade = Number(prompt("Digite sua idade: "));
+
+if (idade < 12 && idade !== 0){
+    console.log ("Sua idade é :" + idade + ", você é CRIANÇA!");
+}
+else if (idade >= 12 && idade < 18){
+    console.log ("Sua idade é :" + idade + ", você é ADOLESCENTE!");
+}
+
+else if (idade >=18 && idade < 60){
+    console.log ("Sua idade é :" + idade + ", você é ADULTO!");
+}
+
+else if (idade >= 60 && idade < 105){
+    console.log ("Sua idade é :" + idade + ", você é IDOSO!");
+}
+else console.log ("Você não inseriu uma idade válida");
+
+_______________________________________________________
+
+3.
+let nota = Number(prompt("Nota = "));
+
+if (nota >= 7 && nota <= 10){
+    console.log("Parabéns, sua nota é " + nota + " você está APROVADO!");
+}
+
+else if (nota >= 5 && nota < 7){
+    console.log("Sua nota é " + nota + " você está em RECUPERAÇÃO");
+}
+
+else if (nota >= 0 && nota < 5){
+  console.log("Sua nota é " + nota + " você está REPROVADO");
+}
+else console.log("Nota inválida, deve ser um valor entre 0; e 10")
+
+_______________________________________________________
+
+4.
+opcao = prompt("escolha apenas umas das três opções:\no1 = comer um chocolate\no2 = ouvir música\no3 = andar de bicicleta")
+
+switch (opcao){
+    case "o1":
+        console.log("Hora de comer um chocolate então!");
+        break;
+
+    case "o2":
+        console.log("Música? Sábia escolha");
+        break;
+
+    case "o3":
+        console.log("Partiu andar de bike!");
+        break;
+    default:
+        console.log("Opção inválida escolhida")
+    }
+
+_______________________________________________________
+
+5.
